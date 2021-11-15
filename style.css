@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    font-family: sans-serif;
+    color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding-top: 1rem;
+    background: grey;
+}
+
+.container{
+    height: 100%;
+    width: 25%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border-radius: 30px;
+    background-image: linear-gradient(#580e8f, #9200ff);
+    
+}
+
+.top-box{
+    border-radius: 20px;
+    height: 4rem;
+    margin: 1rem;
+    background: #9100fb;
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+
+}
+
+.top-box h3{
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.middle-box{
+    height: 10rem;
+    background-image: linear-gradient(#580e8f, #9200ff);
+    margin: 0 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-size: 12px;
+    border-radius: 10px;
+}
+
+.middle-box h1{
+    font-size: 20px;
+    padding-top: 1rem;
+    position: relative;
+
+}
+
+.middle-box p{
+    font-size: 0.8rem;
+    position: relative;
+    margin-top: 5rem;    
+}
+.bottom-box{
+    display: flex;
+    flex-direction: column;
+    background: #580e8f;
+}
+
+.btn-paynent{
+    font-size: 1rem;
+    border-radius: 20px;
+    color:white;
+    margin: 0.3rem 1rem;
+    height: 30px;
+    background: #9100fd;
+    border: none;
+    cursor: pointer
+}
+
+.btn-paynent:hover{
+    background: #741cb8;
+
+}
+.card-detail{
+    margin-top: 2rem;
+}
+
+.card-form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+    border: 5px solid #9100fd;
+    border-radius: 15px;
+}
+
+.card-form label{
+    margin-bottom: 0.8rem;
+}
+
+.card-form input{
+    margin-bottom: 1rem;
+    border-radius: 20px;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    padding-left: 0.5rem;
+    font-size: 1.2rem;
+}
+.card-form button{
+    margin-left: 0.5rem;
+    margin-right: 0,5rem;
+    font-size: 1.4rem;
+    background: #9100fd;
+    margin-bottom: 0.5rem;
+    color:white;
+}
+@media(min-width:640px){
+    .container{
+        width: 50%;
+    }  
+}
+@media(max-width:570px){
+    .container{
+        width:80%;
+    }
+}
+@media(max-width:360px){
+    .container{
+        width: 100%;
+    }
+    
+    
+}
