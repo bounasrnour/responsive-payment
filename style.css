@@ -68,6 +68,7 @@ body{
     display: flex;
     flex-direction: column;
     background: #580e8f;
+    border-radius: 30px;
 }
 
 .btn-paynent{
@@ -86,7 +87,7 @@ body{
 
 }
 .card-detail{
-    margin-top: 2rem;
+    margin: 2rem;
 }
 
 .card-form{
